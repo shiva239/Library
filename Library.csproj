@@ -145,6 +145,7 @@
     <Content Include="Content\datatables\js\jquery.dataTables.js" />
     <Content Include="Content\datatables\js\jquery.dataTables.min.js" />
     <Content Include="Content\Site.css" />
+    <Content Include="DBScripts\Procedures_script.sql" />
     <Content Include="Global.asax" />
     <Content Include="Images\img_avatar2.png" />
     <Content Include="libman.json" />
