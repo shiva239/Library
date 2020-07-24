@@ -1,0 +1,30 @@
+﻿@model Library.Models.Book
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Books Catalog</h2>
+
+<form action="~/Book/Edit" method="post">
+    <label>Book Id</label>
+    <input type="number" id="BookId" name="BookId" value="@Model.BookId" contenteditable="false"/>
+    <br />
+    <label>Book Title</label>
+    <input type="text" id="BookTitle" name="BookTitle" value="@Model.BookTitle" />
+    <br />
+    <label>Book Description</label>
+    <input type="text" id="BookDescr" name="BookDescr" value="@Model.BookDescr" />
+    <br />
+    <label>Author Id</label>
+    <input type="number" id="AuthorId" name="AuthorId" value="@Model.AuthorId" />
+    <br />
+    <label>Book Category</label>
+    <input type="text" id="BookCategory" name="BookCategory" value="@Model.BookCategory" />
+    <br />
+    <label>Publish Date</label>
+    <input type="date" id="BookPublishDate" name="BookPublishDate" value="@Model.BookPublishDate" />
+    <br /><br />
+    <input type="submit" value="Save" class="btn btn-success btn-lg" /> 
+</form>
+
+
