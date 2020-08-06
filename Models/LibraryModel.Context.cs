@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Library.Models
+namespace Library1.Models
 {
     using System;
     using System.Data.Entity;

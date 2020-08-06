@@ -1,4 +1,5 @@
-﻿using Library.Models;
+﻿
+using Library1.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace Library.Controllers
         public ActionResult HtmlHelperExample()
         {
             RegisterEntities db = new RegisterEntities();
-            ViewBag.Register = new SelectList(db.Registers, "Id", "Name");
+            ViewBag.Register = new SelectList(db.Registers, "Id", "Name", "Select User");
             return View();
         }
     }
